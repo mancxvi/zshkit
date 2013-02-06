@@ -1,5 +1,4 @@
 # I want /usr/local/bin to take precedence
 path=(/usr/local/bin $path)
 
-# Allow homebrew man pages
 manpath=($manpath /usr/local/man)
