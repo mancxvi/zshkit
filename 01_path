@@ -1,5 +1,5 @@
-# I want /opt/local/bin to take precedence
-path=(/opt/local/bin $path)
+# I want /usr/local/bin to take precedence
+path=(/usr/local/bin $path)
 
-# Allow MacPorts man pages
-manpath=($manpath /opt/local/man)
+# Allow homebrew man pages
+manpath=($manpath /usr/local/man)
