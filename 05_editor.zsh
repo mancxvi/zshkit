@@ -18,6 +18,8 @@ elif [[ -x `which mate` && $(not_run_from_ssh) = 1 ]]; then
 	function bundle () {
 		cd "$HOME/Library/Application Support/TextMate/Bundles/$1.tmbundle"
 	}
+elif [[ -x `which emacs` ]]; then
+        EDITOR=emacs
 elif [[ -x `which nano` ]]; then
 	EDITOR=nano
 elif [[ -x `which pico` ]]; then
