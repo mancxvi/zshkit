@@ -1,1 +1,1 @@
-export VAGRANT_DEFAULT_PROVIDER=parallels
+export VAGRANT_DEFAULT_PROVIDER=vmware_fusion

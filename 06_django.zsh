@@ -6,7 +6,7 @@ if [[ -x `which django-admin` ]]; then
 		if [[ -x `ls | grep manage.py` ]]; then
 			case $1 in
 				run)
-					python manage.py runserver 0.0.0.0:8000
+					python manage.py runserver
 					;;
 				sa)
 					python manage.py startapp $2
